@@ -1,0 +1,80 @@
+﻿body {
+    font-family: 'Inter', sans-serif;
+    background-color: green;
+    color: #fff;
+    margin: 0;
+}
+
+header {
+    padding-top: 24px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5%;
+}
+
+.logo {
+    display: block;
+    width: min(420px, 80vw);
+    height: auto;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.countdown-message {
+    margin: 24px 0 12px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #eaf7a8;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin: 0 auto 30px;
+}
+
+.time-box {
+    min-width: 90px;
+    padding: 12px 14px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.14);
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+
+.time-value {
+    display: block;
+    font-size: 1.8rem;
+    font-weight: 800;
+    line-height: 1;
+    color: #ffffff;
+}
+
+.time-label {
+    display: block;
+    margin-top: 6px;
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #d9f5bf;
+}
+
+.btn-primary,
+button {
+    background: linear-gradient(90deg, #2d5643, #03dac6);
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    color: #242222;
+    cursor: pointer;
+}
